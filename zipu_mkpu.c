@@ -15,6 +15,7 @@ void zipu_mkpu(const char *mkpu)
 {
 	pid_t pid;
 	char *args[2];
+	int status;
 
 	args[0] = (char *)mkpu;
 	args[1] = NULL;
